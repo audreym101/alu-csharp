@@ -1,12 +1,12 @@
-﻿using System;
+﻿﻿using System;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        int number = 972;
-        string str1 = "Mission";
-        string str2 = "Street";
-        Console.WriteLine($"{number} {str1} {str2}");
+        string str1 = "Street";
+        string str2 = "Mission";
+        int int1 = 972;
+        console.WriteLine($"{int1} {str1} {str2}");
     }
 }
