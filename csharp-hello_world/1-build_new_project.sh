@@ -9,7 +9,5 @@ fi
 
 # Create new console project
 dotnet new console -o "$folder"
-dotnet restore "$folder"
-
-# Build the project and print the build output
+# Build the project (this prints the expected output)
 dotnet build "$folder"
