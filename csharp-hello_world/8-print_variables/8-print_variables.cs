@@ -2,11 +2,11 @@
 {
     class Program
     {
-        static int[] number = [972, 98];
-        static string[] street = ["Mission", "Battery " + street];
+        public static int number = 972;
+        public static string street = "Mission";
         static void Main(string[] args)
         {
-            Console.WriteLine($"{number} {street}");
+            Console.WriteLine($"{number} {street} Street");
         }
     }
 }
