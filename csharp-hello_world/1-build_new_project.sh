@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 set -e
+folder="1-new_project"
 
-# Create the new project folder and initialize a console application
-dotnet new console -o 1-new_project
+# Remove folder if it exists (clean start)
+if [ -d "$folder" ]; then
+    rm -rf "$folder"
+fi
 
-# Restore dependencies
-dotnet restore 1-new_project
+# Create new console project
+dotnet new console -o "$folder"
+dotnet restore "$folder"
 
-# Build the project
-dotnet build 1-new_project
+# Build the project and print the build output
+dotnet build "$folder"
