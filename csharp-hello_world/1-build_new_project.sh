@@ -1,20 +1,21 @@
 #!/usr/bin/env bash
-# This script initializes and builds a new C# console project in folder 1-new_project
+# Script to initialize and build a C# project in 1-new_project
 
-# Exit immediately if a command fails
 set -e
 
-# Folder name
 folder="1-new_project"
 
-# Initialize a new console project
+# Remove the folder if it already exists (optional, ensures clean start)
+if [ -d "$folder" ]; then
+    rm -rf "$folder"
+fi
+
+# Create new console project
 dotnet new console -o $folder
 
-# Build the project
+# Build the project and print output
 dotnet build $folder
 
-# Print success message and instructions
-echo "Initialized and built new C# console project in $folder/"
-ls -la $folder
-echo "To run the project: cd $folder && dotnet run"
-echo "To open the project in VS Code: code $folder"
+# Instructions
+echo "Initialized and built C# project in $folder/"
+echo "To run: cd $folder && dotnet run"
