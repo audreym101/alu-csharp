@@ -6,7 +6,7 @@
         {
             int number = 972;
             string street = "Mission Street";
-            Console.WriteLine($"{number} {street} Street");
+            Console.WriteLine("{0} {1}", number, street);
         }
     }
 }
