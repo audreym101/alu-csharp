@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# Create a new console application in 1-new_project directory
-dotnet new console -o 1-new_project
-
-# Build the project
-dotnet build 1-new_project
+mkdir -p 1-new_project
+cd 1-new_project
+dotnet new console
+dotnet build
