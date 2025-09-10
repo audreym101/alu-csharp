@@ -1,12 +1,11 @@
 ﻿using System;
 
-class Program
-{
-    static void Main()
+    class Program
     {
-        int int1 = 972;
-        string str1 = "Mission";
-        string str2 = "battery";
-        Console.WriteLine($"{int1} {str1} {str2}");
+        static void Main(string[] args)
+        {
+            int number = 972;
+            string street = "Mission Street";
+            Console.WriteLine("{0} {1}", number, street);
+        }
     }
-}
