@@ -10,4 +10,4 @@ cd 1-new_project
 dotnet new console
 
 # Build the project
-dotnet build 2>&1 | tee build.log
+dotnet build 2>&1 
