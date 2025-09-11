@@ -3,9 +3,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string word = "object-oriented programming in C#";
-        string word2 = "is fun and easy to learn.";
-        string word3 = "I love";
-        Console.WriteLine(word);
+        char[] word = { 'o','b','j','e','c','t','-','o','r','i','e','n','t','e','d',' ','p','r','o','g','r','a','m','m','i','n','g',' ','i','n',' ','C','#' };
+        Console.WriteLine(new string(word));
     }
-}    
+}
+
