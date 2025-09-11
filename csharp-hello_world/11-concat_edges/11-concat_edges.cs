@@ -7,4 +7,3 @@ class Program
         Console.WriteLine(new string(word));
     }
 }
-
