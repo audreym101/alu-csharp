@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
-# Script to build and run an existing C# project
+# Script to build and run the existing C# project in 2-new_project
 
-# Build the project in the folder 2-new_project
 dotnet build 2-new_project
-
-# Run the project
 dotnet run --project 2-new_project
