@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-# Navigate to (or create) the project folder
+# Create the folder if it doesn't exist
 mkdir -p 2-new_project
 cd 2-new_project
 
-# Initialize a new C# console project
-dotnet new console
+# Only create a new console project if Program.cs does not exist
+if [ ! -f Program.cs ]; then
+    dotnet new console
+fi
 
 # Build the project
 dotnet build
