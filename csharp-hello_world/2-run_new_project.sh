@@ -14,3 +14,4 @@ dotnet build
 
 # Run the project
 dotnet run
+# --- IGNORE ---
