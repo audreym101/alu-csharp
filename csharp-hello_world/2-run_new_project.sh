@@ -1,27 +1,11 @@
 #!/usr/bin/env bash
 # Script to initialize, build, and run a new C# project
 
-# Folder name
-DIR="2-new_project"
-
-# Remove the folder if it already exists
-if [ -d "$DIR" ]; then
-  rm -rf "$DIR"
-fi
-
-# Create a new console project
-dotnet new console -o "$DIR"
-
-# Ensure Program.cs contains the Hello World line
-echo 'using System;
-class Program {
-    static void Main(string[] args) {
-        Console.WriteLine("Hello World!");
-    }
-}' > "$DIR/Program.cs"
+# Create a new console project in 2-new_project
+dotnet new console -o 2-new_project
 
 # Build the project
-dotnet build "$DIR"
+dotnet build 2-new_project
 
 # Run the project
-dotnet run --project "$DIR"
+dotnet run --project 2-new_project
