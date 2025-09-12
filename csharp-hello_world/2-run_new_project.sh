@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
-# Script to initialize, build, and run a new C# project
+# Script to build and run an existing C# project
 
-# Create a new console project in 2-new_project
-dotnet new console -o 2-new_project
-
-# Build the project
+# Build the project in the folder 2-new_project
 dotnet build 2-new_project
 
 # Run the project
