@@ -1,12 +1,12 @@
-﻿namespace _8_print_variables
-{
-    class Program
+﻿using System;
+class Program{
+    static void Main(string[] args)
     {
-        public static int number = 972;
-        public static string street = "Mission";
-        static void Main(string[] args)
-        {
-            Console.WriteLine($"{number} {street} Street");
-        }
+        int number = 972;
+        string street = "Mission";
+        string type = "Street";
+        Console.WriteLine($"{number} {street} {type}");
+        number = 98; street = "Battery";
+        Console.WriteLine($"{number} {street} {type}");
     }
 }
