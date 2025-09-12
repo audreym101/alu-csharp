@@ -1,12 +1,12 @@
 ﻿using System;
-class Program{
+class Program
+{
     static void Main(string[] args)
     {
         int number = 972;
         string street = "Mission";
         string type = "Street";
         Console.WriteLine($"{number} {street} {type}");
-        number = 98; street = "Battery";
-        Console.WriteLine($"{number} {street} {type}");
     }
 }
+// Output: 97 Battery Street
