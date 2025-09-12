@@ -12,6 +12,14 @@ fi
 # Create a new console project
 dotnet new console -o "$DIR"
 
+# Ensure Program.cs contains the Hello World line
+echo 'using System;
+class Program {
+    static void Main(string[] args) {
+        Console.WriteLine("Hello World!");
+    }
+}' > "$DIR/Program.cs"
+
 # Build the project
 dotnet build "$DIR"
 
