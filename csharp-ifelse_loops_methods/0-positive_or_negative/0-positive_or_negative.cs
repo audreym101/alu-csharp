@@ -7,10 +7,11 @@ class Program
         // Test positive, negative, or zero
         // Uncomment the one you want to test:
 
-        int number = 98;   // positive
-        // int number = -98;  // negative
-        // int number = 0;    // zero
-
+        int number = 98;  // positive
+        int number = -98  // negative
+        int number = 0;   // zero
+         
+         
         if (number > 0)
         {
             Console.WriteLine($"{number} is positive");
