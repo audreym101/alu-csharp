@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-set -e
-mkdir -p 1-new_project
-cd 1-new_project
-dotnet new console 
-dotnet build
+# Script to initialize and build a new C# project
+DIR="1-new_project"
+
+if [ -d "$DIR" ]; then
+  rm -rf "$DIR"
+fi
+dotnet build -o "$DIR"
