@@ -1,20 +1,14 @@
-#!/usr/bin/env bash
-# 2-run_new_project.sh
-
-# Exit immediately if a command fails
-set -e
-
-# Create a new console project in 2-new_project folder
-dotnet new console -o 2-new_project
-
-# Navigate into the project folder
+#!/bin/bash
+# Navigate to the folder where the project will be created
+mkdir -p 2-new_project
 cd 2-new_project
 
-# Restore dependencies
-dotnet restore
+# Initialize a new C# console project
+dotnet new console
 
 # Build the project
 dotnet build
 
 # Run the project
 dotnet run
+# The output should be "Hello, World!" if everything is set up correctly.
