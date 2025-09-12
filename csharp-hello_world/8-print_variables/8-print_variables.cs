@@ -3,10 +3,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number = 972;
-        string street = "Mission";
-        string type = "Street";
+        int number = 972; 
+        string street = "Mission"; 
+        string type = "Street"; 
         Console.WriteLine($"{number} {street} {type}");
     }
 }
-// Output: 97 Battery Street
+// Output: 972 Mission Street
