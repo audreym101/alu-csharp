@@ -4,10 +4,12 @@ class Program
 {
     static void Main()
     {
-        // Change this value to test each case
-        int number = 98;   // positive test
-        // int number = -98; // negative test
-        // int number = 0;   // zero test
+        // Test positive, negative, or zero
+        // Uncomment the one you want to test:
+
+        int number = 98;   // positive
+        // int number = -98;  // negative
+        // int number = 0;    // zero
 
         if (number > 0)
         {
