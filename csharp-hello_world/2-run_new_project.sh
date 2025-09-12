@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
+# Script to initialize, build, and run a new C# project
 
-# Create the folder if it doesn't exist
-mkdir -p 2-new_project
-cd 2-new_project
+# Folder name
+DIR="2-new_project"
 
-# Only create a new console project if Program.cs does not exist
-if [ ! -f Program.cs ]; then
-    dotnet new console
+# Remove the folder if it already exists
+if [ -d "$DIR" ]; then
+  rm -rf "$DIR"
 fi
 
+# Create a new console project
+dotnet new console -o "$DIR"
+
 # Build the project
-dotnet build
+dotnet build "$DIR"
 
 # Run the project
-dotnet run
-# --- IGNORE ---
+dotnet run --project "$DIR"
