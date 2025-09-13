@@ -2,16 +2,13 @@
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        // Test positive, negative, or zero
-        // Uncomment the one you want to test:
+        // DO NOT TOUCH THIS
+        Random rand = new Random();
+        int number = rand.Next(-10, 11); // assigns a random number between -10 and 10
 
-        int number = 98;  // positive
-        int number = -98  // negative
-        int number = 0;   // zero
-         
-         
+        // Print whether the number is positive, negative, or zero
         if (number > 0)
         {
             Console.WriteLine($"{number} is positive");
