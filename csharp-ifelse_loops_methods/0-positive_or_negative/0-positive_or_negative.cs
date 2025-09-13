@@ -6,11 +6,11 @@ class Program
     {
         int number;
 
-        // Uncomment the one you need for each test case:
+        // Uncomment one line depending on the test case:
 
-        number = 98; -98; 0;   // positive test
-        // number = -98;  // negative test
-        // number = 0;    // zero test
+        number = 98;    // positive test
+        // number = -98;   // negative test
+        // number = 0;     // zero test
 
         if (number > 0)
         {
@@ -26,3 +26,8 @@ class Program
         }
     }
 }
+        // DO NOT TOUCH THIS --- IGNORE ---
+        Random rand = new Random(); // --- IGNORE ---
+        int number = rand.Next(-10, 11); // assigns a random number between -10 and 10 --- IGNORE ---
+        // --- IGNORE ---
+        // YOUR CODE BELOW --- IGNORE ---
