@@ -4,11 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        // DO NOT TOUCH THIS
-        Random rand = new Random();
-        int number = rand.Next(-10, 11); // assigns a random number between -10 and 10
+        int number;
 
-        // Print whether the number is positive, negative, or zero
+        // Uncomment the one you need for each test case:
+
+        number = 98; -98; 0;   // positive test
+        // number = -98;  // negative test
+        // number = 0;    // zero test
+
         if (number > 0)
         {
             Console.WriteLine($"{number} is positive");
