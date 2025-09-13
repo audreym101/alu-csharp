@@ -4,16 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number;
-
-        // Test 1: positive
-        // number = 98;
-
-        // Test 2: negative
-        // number = -98;
-
-        // Test 3: zero
-        number = 0;
+        // Read number from input
+        int number = Convert.ToInt32(Console.ReadLine());
 
         if (number > 0)
         {
@@ -25,8 +17,7 @@ class Program
         }
         else
         {
-            Console.WriteLine($"{number} is zero");
+            Console.WriteLine("0 is zero");
         }
     }
 }
-// This program checks if a number is positive, negative, or zero and prints the result.
