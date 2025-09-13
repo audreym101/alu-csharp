@@ -4,8 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Read the number from input
-        int number = Convert.ToInt32(Console.ReadLine());
+        int number = 98;  // default value
+
+        if (args.Length > 0)
+        {
+            number = Convert.ToInt32(args[0]);
+        }
 
         if (number > 0)
         {
