@@ -6,11 +6,14 @@ class Program
     {
         int number;
 
-        // Uncomment one line depending on the test case:
+        // Test 1: positive
+        // number = 98;
 
-        number = 98;    // positive test
-        // number = -98;   // negative test
-        // number = 0;     // zero test
+        // Test 2: negative
+        // number = -98;
+
+        // Test 3: zero
+        number = 0;
 
         if (number > 0)
         {
@@ -26,4 +29,4 @@ class Program
         }
     }
 }
-        
+// This program checks if a number is positive, negative, or zero and prints the result.
