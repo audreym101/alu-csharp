@@ -26,8 +26,4 @@ class Program
         }
     }
 }
-        // DO NOT TOUCH THIS --- IGNORE ---
-        Random rand = new Random(); // --- IGNORE ---
-        int number = rand.Next(-10, 11); // assigns a random number between -10 and 10 --- IGNORE ---
-        // --- IGNORE ---
-        // YOUR CODE BELOW --- IGNORE ---
+        
