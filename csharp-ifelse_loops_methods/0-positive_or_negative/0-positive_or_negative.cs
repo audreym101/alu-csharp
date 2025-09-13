@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Read number from standard input
+        // Read the number from input
         int number = Convert.ToInt32(Console.ReadLine());
 
         if (number > 0)
