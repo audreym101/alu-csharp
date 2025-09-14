@@ -10,7 +10,13 @@ if [ -d "$DIR" ]; then
 fi
 
 # Initialize the console project
-dotnet new console -o "$DIR"
+# Suppress template creation logs to keep output minimal
+dotnet new console -o "$DIR" >/dev/null
 
-# Build the project
-dotnet build "$DIR/$DIR.csproj"
+# Build the project and print only the summary lines
+if ! build_output=$(dotnet build "$DIR/$DIR.csproj" 2>&1); then
+  echo "$build_output" >&2
+  exit 1
+fi
+# Extract exactly the three expected lines
+printf "%s\n" "$build_output" | awk '/^Build succeeded\./{print; getline; print; getline; print; exit}'
