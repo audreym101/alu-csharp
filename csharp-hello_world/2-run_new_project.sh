@@ -4,13 +4,10 @@ set -e
 
 DIR="2-new_project"
 
-# Ensure a clean setup
-if [ -d "$DIR" ]; then
-  rm -rf "$DIR"
+# Initialize the console project only if it doesn't exist
+if [ ! -d "$DIR" ]; then
+  dotnet new console -o "$DIR"
 fi
-
-# Initialize the console project
-dotnet new console -o "$DIR"
 
 # Restore, build, and run the project
 dotnet restore "$DIR/$DIR.csproj"
