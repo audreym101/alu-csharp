@@ -4,19 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number = -98;  // The checker will replace this with a single value
-
+        Random rndm = new Random();
+        int number = rndm.Next(-10, 10);
+        
         if (number > 0)
         {
-            Console.WriteLine("98 is positive");
+            Console.WriteLine($"{number} is positive");
         }
-        else if (number == 0)
+        else if (number == 0) 
         {
-            Console.WriteLine("0 is zero");
+            Console.WriteLine($"{number} is zero");
         }
-        else
+        else if (number < 0)
         {
-            Console.WriteLine("-98 is negative");
+            Console.WriteLine($"{number} is negative");
         }
     }
 }
+
