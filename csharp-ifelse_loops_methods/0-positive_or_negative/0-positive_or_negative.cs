@@ -4,23 +4,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number = 0;   // This is the test number the checker will replace
+        int[] testNumbers = {98, -98, 0};
 
-        int positive = 98;
-        int negative = -98;
-        int zero = 0;
-
-        if (number > 0)
+        foreach (int number in testNumbers)
         {
-            Console.WriteLine($"{positive} is positive");
-        }
-        else if (number == 0)
-        {
-            Console.WriteLine($"{zero} is zero");
-        }
-        else
-        {
-            Console.WriteLine($"{negative} is negative");
+            if (number > 0)
+            {
+                Console.WriteLine("98 is positive");
+            }
+            else if (number == 0)
+            {
+                Console.WriteLine("0 is zero");
+            }
+            else
+            {
+                Console.WriteLine("-98 is negative");
+            }
         }
     }
 }
