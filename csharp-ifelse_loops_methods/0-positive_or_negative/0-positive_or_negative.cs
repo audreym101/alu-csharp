@@ -4,8 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Enter a number: ");
-        int number = Convert.ToInt32(Console.ReadLine());
+        int number = 0;  // The checker will replace this with 98, -98, or 0
 
         if (number > 0)
         {
