@@ -6,7 +6,7 @@
         {
             string str1 = "Welcome to ";
             string str2 = "Holberton School!";
-            Console.WriteLine(str1 + str2);
+            str1 = str1 + str2;
+            Console.WriteLine(str1);
         }
-    
     }
