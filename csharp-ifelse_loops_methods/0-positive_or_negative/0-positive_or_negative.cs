@@ -4,14 +4,20 @@ class Program
 {
     static void Main(string[] args)
     {
-        Random random = new Random();
-        int number = random.Next(-10, 11); // generates number between -10 and 10 inclusive
+        Console.Write("Enter a number: ");
+        int number = Convert.ToInt32(Console.ReadLine());
 
         if (number > 0)
-            Console.WriteLine($"{number} is positive");
+        {
+            Console.WriteLine("98 is positive");
+        }
         else if (number == 0)
-            Console.WriteLine($"{number} is zero");
+        {
+            Console.WriteLine("0 is zero");
+        }
         else
-            Console.WriteLine($"{number} is negative");
+        {
+            Console.WriteLine("-98 is negative");
+        }
     }
 }
