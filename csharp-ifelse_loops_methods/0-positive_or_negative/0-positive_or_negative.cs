@@ -4,24 +4,20 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number = 98;  // default value
-
-        if (args.Length > 0)
-        {
-            number = Convert.ToInt32(args[0]);
-        }
+        Random rnd = new Random();
+        int number = rnd.Next(-10, 10); // Do not touch this line
 
         if (number > 0)
         {
             Console.WriteLine($"{number} is positive");
         }
-        else if (number < 0)
+        else if (number == 0)
         {
-            Console.WriteLine($"{number} is negative");
+            Console.WriteLine($"{number} is zero");
         }
         else
         {
-            Console.WriteLine("0 is zero");
+            Console.WriteLine($"{number} is negative");
         }
     }
 }
