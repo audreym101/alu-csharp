@@ -1,5 +1,18 @@
 #!/usr/bin/env bash
-# Script to build and run the existing C# project in 2-new_project
+# Initialize, build, and run a new C# project in 2-new_project
+set -e
 
-dotnet build 2-new_project
-dotnet run --project 2-new_project
+DIR="2-new_project"
+
+# Ensure a clean setup
+if [ -d "$DIR" ]; then
+  rm -rf "$DIR"
+fi
+
+# Initialize the console project
+dotnet new console -o "$DIR"
+
+# Restore, build, and run the project
+dotnet restore "$DIR/$DIR.csproj"
+dotnet build "$DIR/$DIR.csproj"
+dotnet run --project "$DIR/$DIR.csproj"
