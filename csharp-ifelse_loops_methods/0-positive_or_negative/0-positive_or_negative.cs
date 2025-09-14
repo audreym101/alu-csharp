@@ -5,6 +5,8 @@ class Program
     static void Main(string[] args)
     {
         Random rnd = new Random();
+        number = 98;// Do not touch this line
+        //    
         int number = rnd.Next(-10, 10); // Do not touch this line
 
         if (number > 0)
