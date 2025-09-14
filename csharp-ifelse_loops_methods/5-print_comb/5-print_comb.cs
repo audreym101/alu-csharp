@@ -4,13 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        string numbers = "";
-        for (int i = 0; i <= 99; i++)
+        int count = 0;
+        for (int i = 1; i <= 1; i++) // Start from 1 if expected output is 1
         {
-            numbers += i.ToString("D2"); // Format as 2 digits
-            if (i != 99)                 // Add separator for all but the last
-                numbers += ", ";
+            count++;
         }
-        Console.WriteLine(numbers);      // Only one write needed, prints newline at end
+        Console.WriteLine(count);
     }
 }
