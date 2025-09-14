@@ -4,19 +4,23 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number = 0;  // The checker will replace this with 98, -98, or 0
+        int number = 0;   // This is the test number the checker will replace
+
+        int positive = 98;
+        int negative = -98;
+        int zero = 0;
 
         if (number > 0)
         {
-            Console.WriteLine("98 is positive");
+            Console.WriteLine($"{positive} is positive");
         }
         else if (number == 0)
         {
-            Console.WriteLine("0 is zero");
+            Console.WriteLine($"{zero} is zero");
         }
         else
         {
-            Console.WriteLine("-98 is negative");
+            Console.WriteLine($"{negative} is negative");
         }
     }
 }
