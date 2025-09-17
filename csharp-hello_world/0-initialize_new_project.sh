@@ -1,16 +1,12 @@
 #!/usr/bin/env bash
+# Script: 0-initialize_new_project.sh
+# Initialize a new C# project in folder 0-new_project
 
-# Exit if any command fails
-set -e
-
-# Create the new project folder if it doesn't exist
-PROJECT_DIR="0-new_project"
-if [ ! -d "$PROJECT_DIR" ]; then
-    mkdir "$PROJECT_DIR"
-fi
-
-# Initialize the C# console project using dotnet
-dotnet new console -o "$PROJECT_DIR"
-
-# Optional: Restore dependencies
-dotnet restore "$PROJECT_DIR"
+# Set project directory
+DIR="0-new_project"
+# Create project folder isf it doesn't exist
+mkdir -p "$DIR"
+# Initialize a new C# console project
+dotnet new console -o "$DIR"
+# dotnet automatically runs restore
+echo "C# project initialized in $DIR"
