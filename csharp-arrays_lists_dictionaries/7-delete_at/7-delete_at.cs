@@ -11,18 +11,14 @@ public class List
             return myList;
         }
 
-        // Shift elements left
         for (int i = index; i < myList.Count - 1; i++)
         {
             myList[i] = myList[i + 1];
         }
 
-        // Remove the last element (duplicate)
-        myList.RemoveAt(myList.Count - 1); // If not allowed, see alternative below
+        // Remove last element
+        myList.Remove(myList[myList.Count - 1]);
 
         return myList;
     }
 }
-        // Alternative if RemoveAt is not allowed:
-        // myList.RemoveAt(myList.Count - 1); // Remove the last element (duplicate)
-        // return myList.GetRange(0, myList.Count - 1); // Return a new list without the last element
