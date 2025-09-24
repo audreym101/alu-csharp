@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+
 public class List
 {
-    public static List<int>? CreatePrint(int size)
+    public static List<int> CreatePrint(int size)
     {
         if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
-            return null;
+            return new List<int>(); // empty list instead of null
         }
 
         List<int> newList = new List<int>();
@@ -23,3 +25,4 @@ public class List
         return newList;
     }
 }
+    
