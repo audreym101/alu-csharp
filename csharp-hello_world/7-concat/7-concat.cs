@@ -1,12 +1,11 @@
 ﻿using System;
 
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            string str1 = "Welcome to ";
-            string str2 = "Holberton School!";
-            string result = String.Concat(str1+ "" + str2);
-            Console.WriteLine( "welcome to {0}", str3);
-        }
+        string str1 = "Welcome to";
+        string str2 = "Holberton School!";
+        Console.WriteLine(str1 + " " + str2);
     }
+}
