@@ -1,27 +1,22 @@
 ﻿using System;
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Required output for the checker
-        Console.WriteLine("Hello, World!");
-    }
-}
-
 public class Matrix
 {
-    public static int[,] Square(int[,] matrix)
+    public static int[,] Square(int[,] myMatrix)
     {
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
-        int[,] result = new int[rows, cols];
+        int rows = myMatrix.GetLength(0);
+        int cols = myMatrix.GetLength(1);
+        int[,] squaredMatrix = new int[rows, cols];
 
         for (int i = 0; i < rows; i++)
+        {
             for (int j = 0; j < cols; j++)
-                result[i, j] = matrix[i, j] * matrix[i, j];
+            {
+                squaredMatrix[i, j] = myMatrix[i, j] * myMatrix[i, j];
+            }
+        }
 
-        return result;
+        return squaredMatrix;
     }
 }
 
