@@ -24,8 +24,8 @@ class Program
             current = current.Next;
         }
 
-        Console.WriteLine("------------------");
-        LList.Insert(myLList, 21);
+        Console.WriteLine("-------------------");
+        LList.Delete(myLList, 5);
 
         current = myLList.First;
         while (current != null)
