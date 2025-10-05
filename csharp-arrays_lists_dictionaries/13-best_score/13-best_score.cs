@@ -8,7 +8,7 @@ class Dictionary
         if (myList == null || myList.Count == 0)
             return "None";
         
-        string? bestKey = null;
+        string bestKey = null;
         int maxValue = int.MinValue;
         
         foreach (var kvp in myList)
