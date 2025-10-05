@@ -12,41 +12,42 @@ public class MyQueue
         Console.WriteLine($"Number of items: {aQueue.Count}");
 
         // First item
-        string? firstItem = aQueue.Count > 0 ? aQueue.Peek() : null;
-        Console.WriteLine(firstItem != null ? $"First item: {firstItem}" : "Queue is empty");
-
-        // Add new item
-        aQueue.Enqueue(newItem);
+        if (aQueue.Count > 0)
+            Console.WriteLine($"First item: {aQueue.Peek()}");
+        else
+            Console.WriteLine("Queue is empty");
 
         // Check if contains search item
         bool containsSearch = aQueue.Contains(search);
         Console.WriteLine($"Queue contains \"{search}\": {containsSearch}");
 
-        // Remove items up to and including search
+        // Remove items up to and including search without using Dequeue in a loop
         if (containsSearch)
         {
-            Queue<string> tempQueue = new Queue<string>();
-            bool found = false;
+            // Enumerate items from front to back
+            List<string> itemsFrontToBack = new List<string>(aQueue);
+            int idx = itemsFrontToBack.IndexOf(search);
 
-            while (aQueue.Count > 0)
+            // Keep items after the found index
+            List<string> keep = new List<string>();
+            if (idx >= 0)
             {
-                string item = aQueue.Dequeue();
-                if (item == search)
-                {
-                    found = true;
-                    break;
-                }
-                else
-                {
-                    tempQueue.Enqueue(item);
-                }
+                for (int i = idx + 1; i < itemsFrontToBack.Count; i++)
+                    keep.Add(itemsFrontToBack[i]);
+            }
+            else
+            {
+                keep = itemsFrontToBack;
             }
 
-            while (tempQueue.Count > 0)
-            {
-                aQueue.Enqueue(tempQueue.Dequeue());
-            }
+            // Rebuild the original queue with kept items
+            aQueue.Clear();
+            for (int i = 0; i < keep.Count; i++)
+                aQueue.Enqueue(keep[i]);
         }
+
+        // Add new item
+        aQueue.Enqueue(newItem);
 
         return aQueue;
     }
