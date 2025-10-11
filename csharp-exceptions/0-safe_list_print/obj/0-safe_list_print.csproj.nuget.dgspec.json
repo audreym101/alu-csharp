@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-hello_world\\0-new_project\\0-new_project.csproj": {}
+    "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-exceptions\\0-safe_list_print\\0-safe_list_print.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-hello_world\\0-new_project\\0-new_project.csproj": {
+    "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-exceptions\\0-safe_list_print\\0-safe_list_print.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-hello_world\\0-new_project\\0-new_project.csproj",
-        "projectName": "0-new_project",
-        "projectPath": "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-hello_world\\0-new_project\\0-new_project.csproj",
+        "projectUniqueName": "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-exceptions\\0-safe_list_print\\0-safe_list_print.csproj",
+        "projectName": "0-safe_list_print",
+        "projectPath": "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-exceptions\\0-safe_list_print\\0-safe_list_print.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-hello_world\\0-new_project\\obj\\",
+        "outputPath": "C:\\Users\\user\\alu-csharp-1\\alu-csharp\\csharp-exceptions\\0-safe_list_print\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
