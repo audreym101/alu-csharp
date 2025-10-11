@@ -17,12 +17,12 @@ class List
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
-                result.Add(0);
+                // Do not add anything to result
             }
             catch (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("Out of range");
-                result.Add(0);
+                // Do not add anything to result
             }
         }
 
