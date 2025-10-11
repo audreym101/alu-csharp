@@ -11,18 +11,17 @@ class List
         {
             try
             {
-                int division = list1[i] / list2[i];
-                result.Add(division);
+                result.Add(list1[i] / list2[i]);
             }
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
-                // Do not add anything to result
+                result.Add(0);  // Add 0 for this failed division
             }
             catch (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("Out of range");
-                // Do not add anything to result
+                result.Add(0);  // Add 0 if index is out of range
             }
         }
 
