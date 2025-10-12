@@ -1,5 +1,14 @@
 ﻿using System;
 
+// Define the Rating enum
+enum Rating
+{
+    Good,      // 0
+    Great,     // 1
+    Excellent  // 2
+}
+
+// Define the Dog struct
 struct Dog
 {
     public string name;
@@ -16,3 +25,4 @@ struct Dog
         this.rating = rating;
     }
 }
+
