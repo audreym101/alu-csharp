@@ -1,30 +1,31 @@
-// main_0.cs
 using System;
+using System.Collections.Generic;
 
-class Main0
+class List
 {
-    static void Main(string[] args)
+    public static List<int> Divide(List<int> list1, List<int> list2, int listLength)
     {
-        int[] list1 = {10, 0, 4};
-        int[] list2 = {2, 4, 0};
+        List<int> result = new List<int>();
 
-        for (int i = 0; i < Math.Max(list1.Length, list2.Length); i++)
+        for (int i = 0; i < listLength; i++)
         {
             try
             {
-                Console.WriteLine(list1[i] / list2[i]);
+                // Attempt to divide elements
+                result.Add(list1[i] / list2[i]);
             }
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
+                result.Add(0);
             }
-            catch (IndexOutOfRangeException)
+            catch (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("Out of range");
+                result.Add(0);
             }
         }
+
+        return result;
     }
 }
-
-// main_1.cs → class Main1 { ... }
-// main_2.cs → class Main2 { ... }
