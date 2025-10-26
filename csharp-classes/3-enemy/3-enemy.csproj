@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>_3_enemy</RootNamespace>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp2.1\3-enemy.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
