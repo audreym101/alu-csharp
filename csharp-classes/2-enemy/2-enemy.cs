@@ -3,21 +3,22 @@ using System;
 namespace Enemies
 {
     /// <summary>
-    /// Zombie class
+    /// Defines a zombie with public health and validated constructors.
     /// </summary>
     public class Zombie
     {
-        /// <summary>Health field</summary>
+        /// <summary>Health of the zombie.</summary>
         public int health;
 
-        /// <summary>Constructor</summary>
+        /// <summary>Initializes a new Zombie with 0 health.</summary>
         public Zombie()
         {
             health = 0;
         }
 
-        /// <summary>Constructor</summary>
-        /// <param name="value">Health value</param>
+        /// <summary>Initializes a new Zombie with the specified health.</summary>
+        /// <param name="value">Health value (must be >= 0).</param>
+        /// <exception cref="ArgumentException">Thrown when value is negative.</exception>
         public Zombie(int value)
         {
             if (value < 0)

@@ -3,21 +3,22 @@ using System;
 namespace Enemies
 {
     /// <summary>
-    /// Zombie class
+    /// Defines a zombie with name and health properties.
     /// </summary>
     public class Zombie
     {
         private int health;
         private string name = "(No name)";
 
-        /// <summary>Constructor</summary>
+        /// <summary>Initializes a new Zombie with 0 health.</summary>
         public Zombie()
         {
             health = 0;
         }
 
-        /// <summary>Constructor</summary>
-        /// <param name="value">Health value</param>
+        /// <summary>Initializes a new Zombie with the specified health.</summary>
+        /// <param name="value">Health value (must be >= 0).</param>
+        /// <exception cref="ArgumentException">Thrown when value is negative.</exception>
         public Zombie(int value)
         {
             if (value < 0)
@@ -25,15 +26,14 @@ namespace Enemies
             health = value;
         }
 
-        /// <summary>Name property</summary>
+        /// <summary>Gets or sets the zombie's name.</summary>
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
 
-        /// <summary>Get health</summary>
-        /// <returns>Health value</returns>
+        /// <summary>Returns the current health.</summary>
         public int GetHealth()
         {
             return health;
