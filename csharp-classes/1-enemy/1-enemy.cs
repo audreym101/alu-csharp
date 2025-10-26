@@ -3,14 +3,14 @@ using System;
 namespace Enemies
 {
     /// <summary>
-    /// Defines a zombie with a public health field.
+    /// Zombie class
     /// </summary>
     public class Zombie
     {
-        /// <summary>Health of the zombie.</summary>
+        /// <summary>Health field</summary>
         public int health;
 
-        /// <summary>Initializes a new Zombie with 0 health.</summary>
+        /// <summary>Constructor</summary>
         public Zombie()
         {
             health = 0;
