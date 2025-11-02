@@ -7,26 +7,29 @@ namespace MyMath.Tests
     public class MatrixTests
     {
         [Test]
-        public void Divide_ValidMatrix_ReturnsNewDividedMatrix()
+        public void Divide_RegularDivision_ReturnsCorrectResult()
         {
-            int[,] matrix = { { 4, 8 }, { 12, 16 } };
+            int[,] matrix = { { 98, 0, -12 }, { 21, 972, 44 }, { -727, 60, -2 } };
             int[,] result = Matrix.Divide(matrix, 2);
-            int[,] expected = { { 2, 4 }, { 6, 8 } };
+            int[,] expected = { { 49, 0, -6 }, { 10, 486, 22 }, { -363, 30, -1 } };
             
             Assert.AreEqual(expected, result);
         }
 
         [Test]
-        public void Divide_NullMatrix_ReturnsNull()
+        public void Divide_NegativeDivisor_ReturnsCorrectResult()
         {
-            int[,]? result = Matrix.Divide(null, 2);
-            Assert.IsNull(result);
+            int[,] matrix = { { 98, 0, -12 }, { 21, 972, 44 }, { -727, 60, -2 } };
+            int[,] result = Matrix.Divide(matrix, -7);
+            int[,] expected = { { -14, 0, 1 }, { -3, -138, -6 }, { 103, -8, 0 } };
+            
+            Assert.AreEqual(expected, result);
         }
 
         [Test]
         public void Divide_DivideByZero_PrintsMessageAndReturnsNull()
         {
-            int[,] matrix = { { 4, 8 } };
+            int[,] matrix = { { 98, 0, -12 }, { 21, 972, 44 }, { -727, 60, -2 } };
             
             using (var sw = new StringWriter())
             {
@@ -39,13 +42,20 @@ namespace MyMath.Tests
         }
 
         [Test]
-        public void Divide_SingleElement_ReturnsCorrectResult()
+        public void Divide_EmptyMatrix_ReturnsEmptyMatrix()
         {
-            int[,] matrix = { { 10 } };
-            int[,] result = Matrix.Divide(matrix, 5);
-            int[,] expected = { { 2 } };
+            int[,] matrix = new int[0, 0];
+            int[,] result = Matrix.Divide(matrix, 4);
+            int[,] expected = new int[0, 0];
             
             Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        public void Divide_NullMatrix_ReturnsNull()
+        {
+            int[,]? result = Matrix.Divide(null, 2);
+            Assert.IsNull(result);
         }
     }
 }
