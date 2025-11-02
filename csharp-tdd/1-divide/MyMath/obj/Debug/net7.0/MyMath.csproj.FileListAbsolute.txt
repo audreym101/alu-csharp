@@ -9,3 +9,5 @@ c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath\obj\Debug\net7.
 c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath\obj\Debug\net7.0\refint\MyMath.dll
 c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath\obj\Debug\net7.0\MyMath.pdb
 c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath\obj\Debug\net7.0\ref\MyMath.dll
+c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath\bin\Debug\net7.0\MyMath.xml
+c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath\obj\Debug\net7.0\MyMath.xml

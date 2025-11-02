@@ -99,3 +99,4 @@ c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath.Tests\obj\Debug
 c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath.Tests\obj\Debug\net7.0\MyMath.Tests.pdb
 c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath.Tests\obj\Debug\net7.0\MyMath.Tests.genruntimeconfig.cache
 c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath.Tests\obj\Debug\net7.0\ref\MyMath.Tests.dll
+c:\Users\user\alu-csharp\alu-csharp-1\csharp-tdd\1-divide\MyMath.Tests\bin\Debug\net7.0\MyMath.xml

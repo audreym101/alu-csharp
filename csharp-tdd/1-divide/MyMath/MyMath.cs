@@ -1,5 +1,8 @@
 namespace MyMath
 {
+    /// <summary>
+    /// Provides matrix operations
+    /// </summary>
     public class Matrix
     {
         /// <summary>
