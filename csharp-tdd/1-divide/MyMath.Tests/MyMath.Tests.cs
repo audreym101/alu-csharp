@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using NUnit.Framework;
 using MyMath;
 
@@ -34,7 +36,7 @@ namespace MyMath.Tests
             using (var sw = new StringWriter())
             {
                 Console.SetOut(sw);
-                int[,]? result = Matrix.Divide(matrix, 0);
+                int[,] result = Matrix.Divide(matrix, 0);
                 
                 Assert.IsNull(result);
                 Assert.AreEqual("Num cannot be 0", sw.ToString().Trim());
@@ -54,7 +56,7 @@ namespace MyMath.Tests
         [Test]
         public void Divide_NullMatrix_ReturnsNull()
         {
-            int[,]? result = Matrix.Divide(null, 2);
+            int[,] result = Matrix.Divide(null, 2);
             Assert.IsNull(result);
         }
     }

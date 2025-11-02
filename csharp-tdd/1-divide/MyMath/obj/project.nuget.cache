@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pYLWYHGfNr2kf5m1swLXa5sDcP6uDDTI1NEqWvHfVQ46KHjtXmcdydnuoXHM2AT5QDkMSAreNrIZ6k8ZZaV/Ag==",
+  "dgSpecHash": "ZG7F5JsxKLQUDZJ+Ab/HfYZUExq8RoQr8awLCYkxL25xcYHZCY2myoQM+3mmksQex7lecPlRijDU60TpixQW1g==",
   "success": true,
   "projectFilePath": "c:\\Users\\user\\alu-csharp\\alu-csharp-1\\csharp-tdd\\1-divide\\MyMath\\MyMath.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

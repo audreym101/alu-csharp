@@ -1,3 +1,5 @@
+using System;
+
 namespace MyMath
 {
     /// <summary>
@@ -11,7 +13,7 @@ namespace MyMath
         /// <param name="matrix">The matrix to divide</param>
         /// <param name="num">The number to divide by</param>
         /// <returns>A new matrix with divided elements, or null if matrix is null or num is 0</returns>
-        public static int[,]? Divide(int[,]? matrix, int num)
+        public static int[,] Divide(int[,] matrix, int num)
         {
             if (matrix == null)
                 return null;

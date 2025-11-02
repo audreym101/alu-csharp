@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vlc+E795eVDj1prmYAzfGOtVOi+sUQxBVyf9ctnVrsjeThHk6EiAQ+ID+IqRmpbNHdxP6tfmOU9nbGdVa0ngsQ==",
+  "dgSpecHash": "IC8cvyuC6XW07+QloAy3ghHM7v4+CFSbHJLTOumFQKRVHXW8NJZpzG5SHFMp5MdjXqFC5k9g1cBDaQyJg5oxeg==",
   "success": true,
   "projectFilePath": "c:\\Users\\user\\alu-csharp\\alu-csharp-1\\csharp-tdd\\1-divide\\MyMath.Tests\\MyMath.Tests.csproj",
   "expectedPackageFiles": [
