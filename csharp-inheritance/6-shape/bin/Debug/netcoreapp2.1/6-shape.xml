@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>6-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary>
+            Base Shape class
+            </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary>
+            Virtual method to calculate area
+            </summary>
+            <returns>Area of the shape</returns>
+            <exception cref="T:System.NotImplementedException">Thrown when Area() is not implemented</exception>
+        </member>
+        <member name="T:Rectangle">
+            <summary>
+            Rectangle class that inherits from Shape
+            </summary>
+        </member>
+        <member name="F:Rectangle.width">
+            <summary>
+            Private field for width
+            </summary>
+        </member>
+        <member name="F:Rectangle.height">
+            <summary>
+            Private field for height
+            </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary>
+            Gets or sets the width of the rectangle
+            </summary>
+            <value>The width value</value>
+            <exception cref="T:System.ArgumentException">Thrown when value is negative</exception>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary>
+            Gets or sets the height of the rectangle
+            </summary>
+            <value>The height value</value>
+            <exception cref="T:System.ArgumentException">Thrown when value is negative</exception>
+        </member>
+    </members>
+</doc>

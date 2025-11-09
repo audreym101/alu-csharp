@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary>
+            Base Shape class
+            </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary>
+            Virtual method to calculate area
+            </summary>
+            <returns>Area of the shape</returns>
+            <exception cref="T:System.NotImplementedException">Thrown when Area() is not implemented</exception>
+        </member>
+    </members>
+</doc>

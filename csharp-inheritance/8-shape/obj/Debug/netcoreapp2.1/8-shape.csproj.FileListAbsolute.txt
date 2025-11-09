@@ -1,0 +1,14 @@
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\bin\Debug\netcoreapp2.1\8-shape.xml
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\bin\Debug\netcoreapp2.1\8-shape.deps.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\bin\Debug\netcoreapp2.1\8-shape.runtimeconfig.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\bin\Debug\netcoreapp2.1\8-shape.runtimeconfig.dev.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\bin\Debug\netcoreapp2.1\8-shape.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\bin\Debug\netcoreapp2.1\8-shape.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.csproj.AssemblyReference.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.AssemblyInfoInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.AssemblyInfo.cs
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.csproj.CoreCompileInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\8-shape\obj\Debug\netcoreapp2.1\8-shape.genruntimeconfig.cache
