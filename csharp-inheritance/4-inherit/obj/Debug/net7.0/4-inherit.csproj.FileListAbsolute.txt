@@ -1,0 +1,14 @@
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\bin\Debug\net7.0\4-inherit.exe
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\bin\Debug\net7.0\4-inherit.deps.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\bin\Debug\net7.0\4-inherit.runtimeconfig.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\bin\Debug\net7.0\4-inherit.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\bin\Debug\net7.0\4-inherit.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\4-inherit.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\4-inherit.AssemblyInfoInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\4-inherit.AssemblyInfo.cs
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\4-inherit.csproj.CoreCompileInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\4-inherit.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\refint\4-inherit.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\4-inherit.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\4-inherit.genruntimeconfig.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\4-inherit\obj\Debug\net7.0\ref\4-inherit.dll

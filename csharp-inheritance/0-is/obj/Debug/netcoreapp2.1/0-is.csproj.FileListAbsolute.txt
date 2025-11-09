@@ -1,0 +1,13 @@
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.deps.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.runtimeconfig.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.runtimeconfig.dev.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\bin\Debug\netcoreapp2.1\0-is.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.csproj.AssemblyReference.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.AssemblyInfoInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.AssemblyInfo.cs
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.csproj.CoreCompileInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\0-is\obj\Debug\netcoreapp2.1\0-is.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\bin\Debug\net7.0\5-shape.exe
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\bin\Debug\net7.0\5-shape.deps.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\bin\Debug\net7.0\5-shape.runtimeconfig.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\bin\Debug\net7.0\5-shape.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\bin\Debug\net7.0\5-shape.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\5-shape.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\5-shape.AssemblyInfoInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\5-shape.AssemblyInfo.cs
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\5-shape.csproj.CoreCompileInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\5-shape.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\refint\5-shape.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\5-shape.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\5-shape.genruntimeconfig.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\5-shape\obj\Debug\net7.0\ref\5-shape.dll

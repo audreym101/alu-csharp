@@ -1,0 +1,14 @@
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\bin\Debug\net7.0\1-instance.exe
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\bin\Debug\net7.0\1-instance.deps.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\bin\Debug\net7.0\1-instance.runtimeconfig.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\bin\Debug\net7.0\1-instance.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\bin\Debug\net7.0\1-instance.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\1-instance.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\1-instance.AssemblyInfoInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\1-instance.AssemblyInfo.cs
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\1-instance.csproj.CoreCompileInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\1-instance.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\refint\1-instance.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\1-instance.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\1-instance.genruntimeconfig.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\1-instance\obj\Debug\net7.0\ref\1-instance.dll

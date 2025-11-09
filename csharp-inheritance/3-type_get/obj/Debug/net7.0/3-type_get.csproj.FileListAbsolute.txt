@@ -1,0 +1,14 @@
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\bin\Debug\net7.0\3-type_get.exe
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\bin\Debug\net7.0\3-type_get.deps.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\bin\Debug\net7.0\3-type_get.runtimeconfig.json
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\bin\Debug\net7.0\3-type_get.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\bin\Debug\net7.0\3-type_get.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\3-type_get.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\3-type_get.AssemblyInfoInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\3-type_get.AssemblyInfo.cs
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\3-type_get.csproj.CoreCompileInputs.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\3-type_get.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\refint\3-type_get.dll
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\3-type_get.pdb
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\3-type_get.genruntimeconfig.cache
+c:\Users\user\alu-csharp\alu-csharp-2\csharp-inheritance\3-type_get\obj\Debug\net7.0\ref\3-type_get.dll
