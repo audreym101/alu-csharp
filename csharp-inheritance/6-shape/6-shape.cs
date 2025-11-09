@@ -9,6 +9,7 @@ public class Shape
     /// Virtual method to calculate area
     /// </summary>
     /// <returns>Area of the shape</returns>
+    /// <exception cref="NotImplementedException">Thrown when Area() is not implemented</exception>
     public virtual int Area()
     {
         throw new NotImplementedException("Area() is not implemented");
@@ -20,12 +21,21 @@ public class Shape
 /// </summary>
 public class Rectangle : Shape
 {
+    /// <summary>
+    /// Private field for width
+    /// </summary>
     private int width;
+    
+    /// <summary>
+    /// Private field for height
+    /// </summary>
     private int height;
 
     /// <summary>
-    /// Width property with validation
+    /// Gets or sets the width of the rectangle
     /// </summary>
+    /// <value>The width value</value>
+    /// <exception cref="ArgumentException">Thrown when value is negative</exception>
     public int Width
     {
         get { return width; }
@@ -38,8 +48,10 @@ public class Rectangle : Shape
     }
 
     /// <summary>
-    /// Height property with validation
+    /// Gets or sets the height of the rectangle
     /// </summary>
+    /// <value>The height value</value>
+    /// <exception cref="ArgumentException">Thrown when value is negative</exception>
     public int Height
     {
         get { return height; }

@@ -9,6 +9,7 @@ public class Shape
     /// Virtual method to calculate area
     /// </summary>
     /// <returns>Area of the shape</returns>
+    /// <exception cref="NotImplementedException">Thrown when Area() is not implemented</exception>
     public virtual int Area()
     {
         throw new NotImplementedException("Area() is not implemented");
@@ -20,12 +21,21 @@ public class Shape
 /// </summary>
 public class Rectangle : Shape
 {
+    /// <summary>
+    /// Private field for width
+    /// </summary>
     private int width;
+    
+    /// <summary>
+    /// Private field for height
+    /// </summary>
     private int height;
 
     /// <summary>
-    /// Width property with validation
+    /// Gets or sets the width of the rectangle
     /// </summary>
+    /// <value>The width value</value>
+    /// <exception cref="ArgumentException">Thrown when value is negative</exception>
     public int Width
     {
         get { return width; }
@@ -38,8 +48,10 @@ public class Rectangle : Shape
     }
 
     /// <summary>
-    /// Height property with validation
+    /// Gets or sets the height of the rectangle
     /// </summary>
+    /// <value>The height value</value>
+    /// <exception cref="ArgumentException">Thrown when value is negative</exception>
     public int Height
     {
         get { return height; }
@@ -52,18 +64,18 @@ public class Rectangle : Shape
     }
 
     /// <summary>
-    /// Calculate area of rectangle
+    /// Calculates the area of the rectangle
     /// </summary>
-    /// <returns>Area of rectangle</returns>
+    /// <returns>The area (width * height)</returns>
     public new int Area()
     {
         return width * height;
     }
 
     /// <summary>
-    /// String representation of rectangle
+    /// Returns a string representation of the rectangle
     /// </summary>
-    /// <returns>Formatted string</returns>
+    /// <returns>A formatted string in the format [Rectangle] width / height</returns>
     public override string ToString()
     {
         return $"[Rectangle] {width} / {height}";
@@ -75,11 +87,16 @@ public class Rectangle : Shape
 /// </summary>
 public class Square : Rectangle
 {
+    /// <summary>
+    /// Private field for size
+    /// </summary>
     private int size;
 
     /// <summary>
-    /// Size property with validation
+    /// Gets or sets the size of the square (sets both width and height)
     /// </summary>
+    /// <value>The size value</value>
+    /// <exception cref="ArgumentException">Thrown when value is negative</exception>
     public int Size
     {
         get { return size; }
@@ -94,9 +111,9 @@ public class Square : Rectangle
     }
 
     /// <summary>
-    /// String representation of square
+    /// Returns a string representation of the square
     /// </summary>
-    /// <returns>Formatted string</returns>
+    /// <returns>A formatted string in the format [Square] size / size</returns>
     public override string ToString()
     {
         return $"[Square] {size} / {size}";
