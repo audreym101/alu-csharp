@@ -3,6 +3,7 @@
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>_6_vector_addition</RootNamespace>
-    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <DocumentationFile></DocumentationFile>
+    <NoWarn>1591</NoWarn>
   </PropertyGroup>
 </Project>

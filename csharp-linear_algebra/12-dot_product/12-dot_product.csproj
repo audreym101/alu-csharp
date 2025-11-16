@@ -3,6 +3,7 @@
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>_12_dot_product</RootNamespace>
-    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <DocumentationFile></DocumentationFile>
+    <NoWarn>1591</NoWarn>
   </PropertyGroup>
 </Project>
