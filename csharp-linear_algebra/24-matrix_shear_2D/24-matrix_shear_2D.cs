@@ -1,17 +1,5 @@
-using System;
-
 public class MatrixMath
 {
-    /// <summary>
-    /// Shears a square 2D matrix by a given shear factor in either X or Y direction.
-    /// </summary>
-    /// <param name="matrix">The square 2D matrix to shear.</param>
-    /// <param name="direction">'x' for X direction, 'y' for Y direction.</param>
-    /// <param name="factor">The shear factor.</param>
-    /// <returns>
-    /// The resulting sheared matrix.
-    /// If the matrix is not square or the direction is invalid, returns a matrix containing -1.
-    /// </returns>
     public static double[,] Shear2D(double[,] matrix, char direction, double factor)
     {
         if (matrix == null || matrix.GetLength(0) != 2 || matrix.GetLength(1) != 2)
