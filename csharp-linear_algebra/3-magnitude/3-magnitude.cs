@@ -1,16 +1,19 @@
 using System;
 
-class VectorMath
+public class VectorMath
 {
     public static double Magnitude(double[] vector)
     {
-        if (vector.Length != 2 && vector.Length != 3)
+        if (vector == null || (vector.Length != 2 && vector.Length != 3))
             return -1;
-        
-        double sum = 0;
+
+        double sumSquares = 0;
         foreach (double component in vector)
-            sum += component * component;
-        
-        return Math.Round(Math.Sqrt(sum), 2);
+        {
+            sumSquares += component * component;
+        }
+
+        double length = Math.Sqrt(sumSquares);
+        return Math.Round(length, 2);
     }
 }
